@@ -18,7 +18,9 @@ function convertToStatement(textToConvert,dataType){
             inValue = arr[i];
         }
         arr2[i-1] = inValue 
-	if(arr.length-1!=i) arr2[i]+=','
+	if(arr.length-1!=i){
+          arr2[i-1]+=','
+        }
      }
     
     var 
