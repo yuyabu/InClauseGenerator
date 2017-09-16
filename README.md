@@ -1,6 +1,6 @@
 # InClauseGenerator
 
-You Can make SQL's in clause from text witch written in  excel, text file,other plane text.
+You Can make SQL's In Clause from text witch written in  excel, text file,other plane text.
 
 Paste text like this format
 
@@ -11,7 +11,7 @@ value2
 value3
 ```
 
-and Push 'generate' button,script make In clause like this
+and push 'generate' button,script make In Clause like this
 
 ```
 WHERE
