@@ -14,8 +14,9 @@ value3
 and Push 'generate' button,script make In clause like this
 
 ```
-where 
-column_name in(
+WHERE
+column name IN
+(
 value1,
 value2,
 value3
@@ -25,11 +26,11 @@ value3
 note:you could choice char option to add single quote both end of the value
 
 ```
-where 
-column_name in(
+WHERE
+column name IN
+(
 'value1',
 'value2',
 'value3'
 )
-
 ```
