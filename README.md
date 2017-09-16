@@ -4,12 +4,12 @@ You Can make SQL's in clause from text witch written in  excel, text file,other 
 
 Paste text like this format
 
-'''
+```
 column name
 value1
 value2
 value3
-'''
+```
 
 and Push 'generate' button,script make In clause like this
 
