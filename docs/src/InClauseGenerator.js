@@ -17,13 +17,13 @@ function convertToStatement(textToConvert,dataType){
         }else{
             inValue = arr[i];
         }
-        arr2[i-1] = inValue 
+        arr2[i-1] = inValue
 	if(arr.length-1!=i){
           arr2[i-1]+=','
         }
      }
-    
-    var 
+
+    var
     convertedText = 'WHERE\n'
     convertedText += first_row
     convertedText += ' IN\n'
