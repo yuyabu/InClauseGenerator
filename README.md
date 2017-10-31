@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yuyabu/InClauseGenerator.svg?branch=master)](https://travis-ci.org/yuyabu/InClauseGenerator)
+
 # InClauseGenerator
 
 You Can make SQL's In Clause from text which written in  excel, text file,other plane text.
