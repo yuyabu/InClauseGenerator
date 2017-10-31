@@ -1,0 +1,25 @@
+{
+  "name": "inclausegenerator",
+  "version": "1.0.0",
+  "description": "You Can make SQL's In Clause from text which written in  excel, text file,other plane text.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyabu/InClauseGenerator.git"
+  },
+  "author": "yuyabu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuyabu/InClauseGenerator/issues"
+  },
+  "homepage": "https://github.com/yuyabu/InClauseGenerator#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.8.0"
+  }
+}
