@@ -1,13 +1,14 @@
+
 function generate(){
-    var inputValue = document.getElementById('input_text').value;
-    var selectedDataType = document.getElementById('data_type_option').value;
+    const inputValue = document.getElementById('input_text').value;
+    const selectedDataType = document.getElementById('data_type_option').value;
     var outputText = document.getElementById('output_text');
     outputText.value = convertToStatement(inputValue,selectedDataType);
 }
 function convertToStatement(textToConvert,dataType){
-
+    if (textToConvert === undefined || textToConvert ==="") return "";
     var arr = textToConvert.split(/\r\n|\r|\n/);
-    var arr = arr.filter(function(e){return e !== ""});
+    arr = arr.filter(function(e){return e !== ""});
     var first_row = arr[0]
     var arr2 = new Array();
     for(i=1;i < arr.length; i++){
@@ -17,13 +18,11 @@ function convertToStatement(textToConvert,dataType){
         }else{
             inValue = arr[i];
         }
-        arr2[i-1] = inValue 
+        arr2[i-1] = inValue
 	if(arr.length-1!=i){
           arr2[i-1]+=','
         }
      }
-    
-    var 
     convertedText = 'WHERE\n'
     convertedText += first_row
     convertedText += ' IN\n'
