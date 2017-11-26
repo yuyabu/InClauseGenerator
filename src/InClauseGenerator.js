@@ -23,7 +23,7 @@ function convertToStatement(textToConvert,dataType){
           arr2[i-1]+=','
         }
      }
-    convertedText = 'WHERE\n'
+    var convertedText = 'WHERE\n'
     convertedText += first_row
     convertedText += ' IN\n'
     convertedText += '(\n'
