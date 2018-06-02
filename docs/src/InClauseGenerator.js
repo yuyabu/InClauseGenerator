@@ -20,14 +20,9 @@ function convertToStatement(textToConvert,dataType){
         }
         arr2[i-1] = inValue
 	if(arr.length-1!=i){
-          arr2[i-1]+=','
+          arr2[i-1]+=', '
         }
      }
-    var convertedText = 'WHERE\n'
-    convertedText += first_row
-    convertedText += ' IN\n'
-    convertedText += '(\n'
-    convertedText += arr2.join('\n');
-    convertedText += '\n)'
+    var convertedText = ' where ' + first_row + ' in ( ' + arr2.join('') + ' ) '
     return convertedText;
 }
