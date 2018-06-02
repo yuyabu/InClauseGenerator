@@ -22,7 +22,5 @@ and push 'generate' button, script will make In Clause like this
 note:you could choice char option to add single quote both end of the value
 
 ```
-WHERE
-column name IN
  where column name in ( 'value1', 'value2', 'value3' ) 
 ```
