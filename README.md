@@ -16,13 +16,7 @@ value3
 and push 'generate' button, script will make In Clause like this
 
 ```
-WHERE
-column name IN
-(
-value1,
-value2,
-value3
-)
+ where column name in ( value1, value2, value3 ) 
 ```
 
 note:you could choice char option to add single quote both end of the value
@@ -30,9 +24,5 @@ note:you could choice char option to add single quote both end of the value
 ```
 WHERE
 column name IN
-(
-'value1',
-'value2',
-'value3'
-)
+ where column name in ( 'value1', 'value2', 'value3' ) 
 ```
